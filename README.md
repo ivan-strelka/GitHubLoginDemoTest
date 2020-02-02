@@ -1,2 +1,3 @@
-Some demo tests Java + Selenium WD + Maven + JUnit 5
 # GitHubLoginDemoTest
+Some demo tests Java + Maven + Selenium WD + JUnit 5
+
