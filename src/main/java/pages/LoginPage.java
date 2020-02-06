@@ -12,8 +12,8 @@ public class LoginPage {
     }
 
 
-    private By loginField = By.xpath("//input[@id='password']");
-    private By passwordField = By.xpath("//input[@id='user_login']");
+    private By loginField = By.xpath("//input[@id='login_field']");
+    private By passwordField = By.xpath("//input[@id='password']");
     private By signInButton = By.xpath("//input[@name='commit']");
     private By heading = By.xpath("//h1[contains(text(),'Sign in to GitHub')]");
     private By error = By.xpath("//div[@class='container']");

@@ -27,7 +27,6 @@ public class WebDiverSettings {
         driver.get("https://github.com/");
         mainPage = PageFactory.initElements(driver, MainPage.class);
 
-
     }
 
 

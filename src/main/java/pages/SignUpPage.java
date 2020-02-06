@@ -17,7 +17,7 @@ public class SignUpPage {
     private By userEmailField = By.xpath("//input[@id='user_email']");
     private By passwordField = By.xpath("//input[@id='user_password']");
     private By submitButton = By.xpath("//button[@id='signup_button']");
-    private By userNameError = By.xpath("//div[@class='flash flash-error my-3']");
+    private By userNameError = By.xpath("//div[contains(@class,'mb-1')]");
     private By headingJoinGitHub = By.xpath("//div[text()='Join GitHub']");
     private By headingCreateAccount = By.xpath("//h1[text()='Create your account']");
 
